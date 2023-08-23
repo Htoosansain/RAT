@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>android hacking Rat ( Create By M A H T )</title>
+  <link rel="icon" href="logo.png"  >
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./Auth.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="./App.js" defer></script>
+  </head>
+ 
+<body>
+
+
+  <main style="margin-top: 30px; padding-left: 15px; padding-right: 15px;">
+      <form style="max-width: 350px;" class="signin" autocomplete="on">
+    <div class="login_form_container">
+      <div class="login_form">
+        <center>
+       <img src="logo.png" width="180px" height="180px">
+     </center>
+        <div class="input_group">
+          <i class="fa fa-user"></i>
+          <input
+            id="email"
+            type="email"
+            placeholder="Email"
+            class="input_text"
+            autocomplete="on"
+            required=""
+          />
+        </div>
+        <div class="input_group">
+          <i class="fa fa-unlock-alt"></i>
+          <input
+            id="password"
+            type="password"
+            placeholder="Password"
+            class="input_text"
+            minlength="8"
+            title="Enter correct password!"
+            required=""
+          />
+        </div>
+        <center>
+       <button
+            id="login_button"
+            style="padding: 5px 10px 5px 10px; 
+                max-width: 100px;"
+            class="submit"
+            type="submit"
+          >
+            Login
+          </button>
+        </center>
+       
+      </div>
+    </div>
+
+  <div class="info"></div>
+        <div class="desc" style="color : #ffc507;">
+          <p>
+            Myanmar_anonymous_helper_team - Online Class Page
+            <a href="https://www.facebook.com/mathanonymousteam?mibextid=ZbWKwL" target="_blank"> <b> Myanmar_anonymous_helper_team </b></a>
+           </p>
+          <p>
+          Telegram Channel -
+            <a href="https://t.me/Myanmar_anonymous_helper_team" target="_blank"> <b> Myanmar_anonymous_helper_team </b></a>
+          </p>
+        </div>
+ 
+      
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
+    <script src="./Auth.js"></script>
+    <script src="Firebase.js"></script>
+  </body>
+</html>
